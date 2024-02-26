@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/estilos/style1.css">
+        <link rel="stylesheet" href="/estilos/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@200;400;600&family=Play:wght@700&display=swap" rel="stylesheet">
+        <title>Metrex - LPWAN</title>
+    </head>
+    <body>
+        <nav class="menuNavegacion">
+            <div class="hamburger" onclick="mostrar()">
+                <span></span><span></span><span></span>
+            </div>
+            <div class="menu">
+                <img src="/img/logo.gif" alt="logo empresa" class="logo">
+                <ul id="sliding_menu">
+                    <li><span class="close" onclick="ocultar()">x</span></li><br>
+                    <li><a href="/index.html">Inicio</a>
+                        <ul class="submenu">
+                            <li><a href="#">¿Quienes somos?</a></li>
+                            <li><a href="#">Localización</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/paginas/smartMetering.html">Medición inteligente</a></li>
+                    <li><a href="/paginas/tecnologiasIot.html">Tecnologías IoT</a>
+                        <ul class="submenu2">
+                            <li><a href="#">LoRaWAN</a></li>
+                            <li><a href="#">Sigfox</a></li>
+                            <li><a href="#">Cat-M1</a></li>
+                            <li><a href="#">Cat.1</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/paginas/galeria.html">Galeria</a>
+                        <ul class="submenu3">
+                            <li><a href="#seccion1">Medición analoga</a></li>
+                            <li><a href="#seccion2">Medición digital</a></li>
+                            <li><a href="#">Medición ultrasonica</a></li>
+                            <li><a href="#">Medición Prepago</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/paginas/plataforma.html">Plataforma</a></li>
+                    <li><a href="/paginas/simulador.html">Simulador</a></li>
+                </ul>
+            </div>
+        </nav>
+    <header>        
+        <div class="contenedor-producto">
+            <H1 class="titulo">Galeria de conectividad IoT</H1>
+            <p class="copy">En Metrex contamos con variedad de productos, con los cuales se pueden utilizar diferentes tipos de tecnologias IoT</p>
+        </div>
+    </header>
+    <main>
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo1" id="seccion1">Medición analoga</h2>
+                <div class="contenedor-galeria">
+                    <img src="/img/1 (G1.6).gif" class="img-galeria">
+                    <img src="/img/2 (G2.5).gif" class="img-galeria">
+                    <img src="/img/3 (G4).gif" class="img-galeria">
+                    <img src="/img/5 (G10S).gif" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <section>
+            <di class="contenedor">
+                <h2 class="subtitulo1" id="seccion2">Medición digital</h2>
+                <div class="contenedor-galeria">
+                    <img src="/img/6 (G2.5).gif" class="img-galeria">
+                    <img src="/img/7 (G4).gif" class="img-galeria">
+                </div> 
+            </di>
+        </section>
+        <section class="image-light">
+            <img src="/iconos/bx-x.svg" class="close1">
+            <img src="/img/1 (G1.6).gif" class="agregar-imagen">
+        </section>
+    </main>
+    <script src="/Javascript/galeria.js"></script>
+    <script src="/Javascript/menu.js"></script>
+    </body>
+</html>

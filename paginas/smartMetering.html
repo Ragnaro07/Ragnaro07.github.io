@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/estilos/style1.css">
+        <link rel="stylesheet" href="/estilos/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@200;400;600&family=Play:wght@700&display=swap" rel="stylesheet">
+        <title>Metrex - LPWAN</title>
+    </head>
+    <body>
+        <nav class="menuNavegacion">
+            <div class="hamburger" onclick="mostrar()">
+                <span></span><span></span><span></span>
+            </div>
+            <div class="menu">
+                <img src="/img/logo.gif" alt="logo empresa" class="logo">
+                <ul id="sliding_menu">
+                    <li><span class="close" onclick="ocultar()">x</span></li><br>
+                    <li><a href="/index.html">Inicio</a>
+                        <ul class="submenu">
+                            <li><a href="#">¿Quienes somos?</a></li>
+                            <li><a href="#">Localización</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/paginas/smartMetering.html">Medición inteligente</a></li>
+                    <li><a href="/paginas/tecnologiasIot.html">Tecnologías IoT</a>
+                        <ul class="submenu2">
+                            <li><a href="#">LoRaWAN</a></li>
+                            <li><a href="#">Sigfox</a></li>
+                            <li><a href="#">Cat-M1</a></li>
+                            <li><a href="#">Cat.1</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/paginas/galeria.html">Galeria</a>
+                        <ul class="submenu3">
+                            <li><a href="/paginas/galeria.html#seccion1">Medición analoga</a></li>
+                            <li><a href="/paginas/galeria.html#seccion2">Medición digital</a></li>
+                            <li><a href="#">Medición ultrasonica</a></li>
+                            <li><a href="#">Medición Prepago</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/paginas/plataforma.html">Plataforma</a></li>
+                    <li><a href="/paginas/simulador.html">Simulador</a></li>
+                </ul>
+            </div>
+        </nav>
+    <header>
+        <div class="contenedorSM">
+            <H1>Protocolos de comunicación</H1>
+            <br>
+            <br>
+            <p>Las tecnologías IoT (Internet of Things) através de sus redes de área amplia y baja potencia(LPWAN), en este caso, Sigfox,LoraWANy CAT-M1, han hecho posible la implementación de sistemas de medición inteligente que atacan problemáticas por demoras en la toma de decisiones y falta de información entiempo real.
+
+            Dentrodeestos sistemas de medición inteligente seemplean medidoresconla capacidad detransmitir de forma remota su estado de funcionamiento,impactandofavorablemente la disminución de perdidas no técnicas asociadas a fraudes detipo común.</p>
+        </div>
+    </header>   
+    <main>
+        <section class="contenedorAMR" id="medicionAMR">  
+            <h2 class="subtituloAmr">(AMR) Automated Meter Reading</h2>
+                <div class="definicionamr"><br>
+                    <p>La tecnología de lectura automática de medidores se utiliza para recopilar datos de consumo de gas de manera remota y automatizada, en lugar de requerir que alguien visite básicamente el medidor para registrar los datos manualmente. Esto se logra mediante la instalación de dispositivos de comunicación en los medidores de gas que envían la información a un sistema central. La implementación de AMR puede ser beneficiosa para las compañías de servicios públicos y los usuarios, ya que reduce los costos operativos, minimiza los errores de lectura y brinda la capacidad de monitorear el consumo en tiempo real.</p>
+                </div>
+                <div class="medicionAmr">
+                    <h3 class="n-medicionAmr"><br>Esta compuesta por</h3><br>
+                        <ol>
+                            <li>Red-on line</li>
+                            <li>Modulo de comunicación</li>
+                            <li>Almacenamiento de información en la nube</li>
+                            <li>Plataforma para gestión de los datos</li>
+                            <li>Comunicación unidireccional</li><br>
+                        </ol>
+                </div>    
+                <div class="medicionAmr">
+                    <h3 class="n-medicionAmr"><br> Protocolo de comunicación IoT aplicado</h3><br>
+                    <ul>
+                        <li>Sigfox</li>
+                        <li>LoRaWAN</li>
+                        <li>Cat-M1</li><br>
+                    </ul>
+                </div>
+                <div class="medicionAmr">
+                    <h3 class="n-medicionAmr"><br>Beneficios</h3><br>
+                    <ul>
+                        <li>Pasa de recolectar de manera manual, un dato mensual a recolectar 60 datos de manera automatica al mes. </li>
+                        <li>Facilita y focaliza la planeación de visitas en campo a travas de los reportes de comportamiento de consumos en plataforma</li><br>
+                    </ul>
+                </div>
+        </section>
+        <section class="contenedorAMI" id="medicionAMI">        
+            <div class="medicionAmi">
+                <h2 class="subtituloAmi">(AMI) Advanced Metering Infraestructure </h2>
+                <p>.</p><br>
+            </div>
+            <div class="medicionAmi">
+                <h3 class="n-medicionAmi"><br>Esta compuesta por</h3><br>
+                <ol>
+                    <li>Red-on line</li>
+                    <li>Modulo de comunicación</li>
+                    <li>Almacenamiento de información en la nube</li>
+                    <li>Plataforma para gestión de los datos</li>
+                    <li>Comunicación bidireccional</li>
+                </ol>
+            </div>
+            <div class="medicionAmi">
+                <h3 class="n-medicionAmi"><br>Protocolo de comunicación IoT aplicado</h3><br>
+                <ul>
+                    <li>Sigfox</li>
+                    <li>LoRaWAN</li>
+                    <li>Cat-M1</li>
+                </ul>
+            </div>
+            <div class="medicionAmi">
+                <h3 class="n-medicionAmi"><br>Beneficios</h3><br>
+                <ul>
+                    <li>Pasa de recolectar de manera manual, un dato mensual a recolectar 60 datos de manera automatica al mes. </li>
+                    <li>Facilita y focaliza la planeación de visitas en campo a travas de los reportes de comportamiento de consumos en plataforma</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="/Javascript/menu.js"></script>
+</body>
+</html>
